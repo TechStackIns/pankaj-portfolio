@@ -2,38 +2,38 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "Enterprise Cloud Platform",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
+      "Cloud-native backend platform built with .NET and Azure, designed for scalability, security, and high-availability enterprise workloads.",
     image: `${import.meta.env.BASE_URL}projects/project1.png`,
-    tags: ["React", "Typescript", "NodeJS"],
+    tags: [".NET 8", "Azure", "Microservices", "SQL Server", "API Security"],
     link: "#",
     github: "#",
   },
   {
-    title: "E-Commerce Platform",
+    title: "Secure API & Identity Platform",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
+      "Centralized authentication and authorization system implementing Azure Entra ID, JWT, and role-based access across multiple applications.",
     image: `${import.meta.env.BASE_URL}projects/project2.png`,
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
+    tags: [".NET", "Azure Entra ID", "OAuth2", "JWT", "RBAC"],
     link: "#",
     github: "#",
   },
   {
-    title: "AI Writing Assistant",
+    title: "AI-Powered Workflow Automation",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
+      "Intelligent automation platform leveraging Semantic Kernel to orchestrate LLM-based workflows and reduce manual processing.",
     image: `${import.meta.env.BASE_URL}projects/project3.png`,
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
+    tags: [".NET", "Semantic Kernel", "Azure", "AI Integration"],
     link: "#",
     github: "#",
   },
   {
-    title: "Project Management Tool",
+    title: "Full-Stack SaaS Application",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
+      "End-to-end SaaS solution with a scalable .NET backend and modern React/Angular frontend, built with an API-first approach.",
     image: `${import.meta.env.BASE_URL}projects/project4.png`,
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
+    tags: [".NET", "React", "Angular", "Azure", "SQL Server"],
     link: "#",
     github: "#",
   },
@@ -133,12 +133,12 @@ export const Projects = () => {
         </div>
 
         {/* View All CTA */}
-        <div className="text-center mt-12 animate-fade-in animation-delay-500">
+        {/*<div className="text-center mt-12 animate-fade-in animation-delay-500">
           <AnimatedBorderButton>
             View All Projects
             <ArrowUpRight className="w-5 h-5" />
           </AnimatedBorderButton>
-        </div>
+        </div>*/}
       </div>
     </section>
   );

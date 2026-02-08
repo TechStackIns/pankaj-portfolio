@@ -10,24 +10,22 @@ import {
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
+  ".NET",
+  "C#",
+  "Azure",
+  "Applied AI",
+  "Web API",
+  "Semantic Kernel",
+  "API Security",
   "React",
-  "Next.js",
+  "Angular",
   "TypeScript",
-  "Node.js",
-  "GraphQL",
+  "Ms SQL",
+  "Oracle",
   "PostgreSQL",
-  "MongoDB",
-  "Redis",
   "Docker",
-  "AWS",
   "Vercel",
-  "Tailwind CSS",
-  "Prisma",
-  "Jest",
-  "Cypress",
-  "Figma",
   "Git",
-  "GitHub Actions",
 ];
 
 export const Hero = () => {
@@ -65,25 +63,25 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Software Engineer • React Specialist
+                Staff Software Engineer • Backend / Platform (.NET, Cloud & AI)
               </span>
             </div>
 
             {/* Headline */}
             <div className="space-y-4">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Crafting <span className="text-primary glow-text">digital</span>
+              <h1 className="text-5xl md:text-6xl lg:text-6xl font-bold leading-tight animate-fade-in animation-delay-100">
+                Designing <span className="text-primary glow-text">scalable </span>
                 <br />
-                experiences with
+                systems that power 
                 <br />
                 <span className="font-serif italic font-normal text-white">
-                  precision.
+                  modern businesses.
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Pedro Machado — a software engineer specializing in
-                React, Next.js, and TypeScript. I build scalable, performant web
-                applications that users love.
+                Hi, I’m Pankaj Madisetti — a Staff Software Engineer with 12+ years of experience designing 
+                and scaling cloud-native platforms using .NET, Azure, and applied AI. 
+                
               </p>
             </div>
 

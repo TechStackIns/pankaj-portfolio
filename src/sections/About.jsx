@@ -49,30 +49,21 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
-              </p>
+                I specialize in building robust backend platforms, cloud services, 
+                and AI-integrated systems that solve complex business challenges. 
+                My experience spans enterprise applications, distributed architectures, 
+                API security, and full-stack engineering with modern frontends. 
+                </p>
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+                I lead design decisions and mentor teams to ensure high-quality technical outcomes.
               </p>
-              <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
-              </p>
+              
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but truly delightful — products that users love to
-                use and developers love to maintain."
+                "My mission is to design and deliver scalable, secure, and maintainable software 
+                systems — platforms that solve real business problems and stand the test of time."
               </p>
             </div>
           </div>
